@@ -1,13 +1,15 @@
 Welcome back!!
 We will write some scripting code here..
 Let us understand using an example of pseudo code:
-$("document").ready(function(){
-               $("body").append("<h1>This is Jquery<\h1>");
-           });
 
 
--> "$" symbol is used for refernece here.
--> document is because we are seleting the whole document. we can even select a part but we will see it further.
+                                $("document").ready(function(){
+                                $("body").append("<h1>This is Jquery<\h1>");
+                                });
+
+
+-> "$" symbol is used for referenece here.
+-> document is because we are selecting the whole document. we can even select a part but we will see it further.
 ->ready is a function that means when the file is saved execute this function given in the bracket.
 -> again we using $ symbol and write as append that means we append this to the original file.
 
@@ -16,4 +18,25 @@ NOTE:
 
 create a file2.html and add this script and observe the output.
 
-OBSERAVATION:The same Code above will take lot of time and code in javascript  
+OBSERAVATION:The same Code above will take lot of time and code in javascript
+--------------------------------------------------------------
+
+NOW WE WILL SEE ABOUT FILTERS AND SELECTORS ..
+
+SELECTORS------------
+ example:
+              $("h1").css("border","1px solid");
+
+if we understand we have given css for h1 and given properties for the heading.
+use the file3.html for reference.
+
+NOTE: WE HAVE TO GIVE FEATURE AND PROPERTY IN SEPERATE DOUBLE QUOTES.
+---------------------------------------------------
+FILTERS--------
+          $("h1:first").css("border","1px solid");
+
+  if we have more than one h1 or any other tag we can filter it.
+
+  Try it yourself  execute for 4 headings..
+  ----------------
+  
