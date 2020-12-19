@@ -1,4 +1,4 @@
-
+WEB DEVELOPMENT
 JQUERY
 It is a prewritten (file) Javascript.
 WHY?
@@ -6,3 +6,11 @@ allows us to diffrent operations in javascript easily.
 it saves time.
 it solves cross browser issues.
 reduces code
+NOW.. we will download the Jquery from the website..
+we will download.... from this site.."https://jquery.com/download/"
+steps:
+1)go to the website given
+2)"Download the compressed, production jQuery 3.5.1" select this and right click and open in a new tab.
+3)save the file in your pc/laptop for further use.
+..........
+In the upcoming lecture we will add jquery to our website..
