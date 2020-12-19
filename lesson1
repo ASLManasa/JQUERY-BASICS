@@ -1,0 +1,19 @@
+Welcome back!!
+We will write some scripting code here..
+Let us understand using an example of pseudo code:
+$("document").ready(function(){
+               $("body").append("<h1>This is Jquery<\h1>");
+           });
+
+
+-> "$" symbol is used for refernece here.
+-> document is because we are seleting the whole document. we can even select a part but we will see it further.
+->ready is a function that means when the file is saved execute this function given in the bracket.
+-> again we using $ symbol and write as append that means we append this to the original file.
+
+NOTE:
+* DONT FORGET ";" AFTER THE SCRIPT WRITTEN
+
+create a file2.html and add this script and observe the output.
+
+OBSERAVATION:The same Code above will take lot of time and code in javascript  
