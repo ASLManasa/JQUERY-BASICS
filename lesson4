@@ -31,4 +31,30 @@ Explanation:
 
 Try to execute it and understand.
 Refer file8.html
----------------
+----------------------------
+SLIDING
+
+EXAMPLE:
+
+      $("#slideup").click(function()
+                            {
+             $("#textbox").slideUp("3000","linear");
+
+         });
+             $("#slidedown").click(function()
+                            {
+             $("#textbox").slideDown("3000","linear");
+
+         });
+            $("#toggleSlide").click(function()
+                                   {
+              $("#textbox").slideToggle("3000",function()
+                                       {
+                  alert("Done with sliding");
+              });
+            });
+
+
+This is similar to FADING only some minor changes are required.
+slideToggle is here is used here as both slide up as well as down.
+Try it,(refer file9.html)

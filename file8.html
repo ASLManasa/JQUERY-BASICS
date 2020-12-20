@@ -7,38 +7,36 @@
         <script src="js/jquery.js"></script>
         <script>
             $("document").ready(function(){
-               $("#fadein").on("click",fadein);
-                $("#fadeout").on("click",fadeout);
-                function fadein()
-                {
-                    $("#textbox").fadeIn("fast",function()
-                    {
-                        alert("I am done fadingfor 3 sec");
-                    });
-                }
-               function fadeout()
-                {
-                    $("#textbox").fadeOut(3000,function()
-                    {
-                        alert("I am faded for 3 sec");
-                    });
-                }
 
+             $("#slideup").click(function()
+                                {
+                 $("#textbox").slideUp("3000","linear");
+
+             });
+                 $("#slidedown").click(function()
+                                {
+                 $("#textbox").slideDown("3000","linear");
+
+             });
+                $("#toggleSlide").click(function()
+                                       {
+                  $("#textbox").slideToggle("3000",function()
+                                           {
+                      alert("Done with sliding");
+                  });
+                });
 
             });
 
         </script>
         <style>
-            #textbox{
-                display: none;
-            }
 
         </style>
     </head>
 <body>
-<a href="#" id="fadein">FADEIN</a>
-    <br>
- <a href="#" id="fadeout">FADEOUT</a>
+ <a href="#" id="slideup">SLIDEUP</a><br>
+    <a href="#" id="slidedown">SLIDEDown</a><br>
+    <a href="#" id="toggleSlide">TOGGLE</a><br>
 <div id="textbox">
     <p > Table tennis, also known as ping-pong and whiff-whaff, is a sport in which two or four players hit a lightweight ball, also known as the ping-pong ball, back and forth across a table using small rackets.</p>
 
