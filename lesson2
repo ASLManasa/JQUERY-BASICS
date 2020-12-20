@@ -11,4 +11,24 @@ Example code:
   3)Ihave referenced the <div> tag's id as textbox and appended it with the variable.
 
   look at file4.html for better understanding.
-  
+  ----------------------------
+  We will deal with HANDLING EVENTS..
+
+EXAMPLE:
+          $("#textbox").on("click",whenMouseIsClicked);
+               $("#textbox").on("mouseleave",whenMouseLeaves);
+
+               function whenMouseIsClicked(){
+                   $("#textbox").html("<h3>HEY!!,YOU CLICKED ME<\h3>");
+               }
+               function whenMouseLeaves()
+               {
+                  $("#textbox").html("<h3>HEY!!,YOU LEFT ME<\h3>");
+               }
+
+EXPLANATION:
+1) I have created jquery reference as when click and the function is named as "whenMouseIsClicked".
+similarly for when mouse leaves as function "whenMouseLeaves".
+2) I have written the function for both the functions using jquery.
+
+try yourself.(refer file5.html)
