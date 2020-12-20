@@ -1,0 +1,57 @@
+Welcome back..
+we will do some advanced.. jquery coding..
+-----------------
+Advanced Selectors
+
+->        {
+                $("div > p").css("border","1px dotted black")
+            });
+
+Explanation:
+This will be only valid for all the div paragraphs in the file.
+
+
+->         {
+                $("div > p.one").css("border","1px dotted black")
+            });
+
+Explanation:
+This will valid only for div where paragraph has a class as one.
+
+-> {
+                $("#textbox +ul").css("border","1px dotted black")
+            });
+  Explantion:
+  This will be only valid for textbox Selectors and unordered list.
+
+  Try these (refer file10.html)
+  ---------------
+FILTER Advanced
+
+->
+Example:
+  {
+                $("p:first-child").css("border","1px dotted black")
+            });
+
+  Explantion:it will give the properties only for 1st paragraphs.
+
+  ->Example:
+          {
+                $("p:last-of-type").css("border","1px dotted black")
+            });
+
+Explantion:it will exibit  only for the last paragraph.
+
+->
+Example:
+ $("p:contains('ping-pong')").css("border","1px dotted black")
+
+ Explantion:it will only exhibit for those that contains the specific word given in the brackets.
+
+ ->Example:
+  $("p:nth-child(2)").css("border","1px dotted black")
+
+  Explantion:it will only exhibit for the second child of the div.
+
+   
