@@ -18,4 +18,22 @@ We will move further with jquery..
 
   try the code (refer file6.html)
   -------------------
-  
+  We will write jquery code for hover effect
+
+  Example:
+      $(".textcopy").hover(highlight);
+           function highlight()
+           {
+               $(this).toggleClass("highlight");
+           }
+
+Explanation:
+1)created a selector as textcopy in the body tag and hover it with the function name as highlight.
+2)I have defined the function highlight.
+3)i have used $this that means pointing to the cuurent value.toogle class and defined the function.
+
+TOGGLE CLASS: The toggleClass() method toggles between adding and removing one or more class names from the selected elements.
+To know more about toggle class visit " https://www.w3schools.com/jquery/html_toggleclass.asp"
+
+Try it.(refer file7.html)
+-------------
