@@ -1,0 +1,25 @@
+Welcome.
+
+Other queries:
+
+1.
+
+Example:
+
+               $("#textbox p").wrap("<div class='colorb'>");
+
+  Explanation:
+
+  we are wraping the color of a div class using jquery
+  try it(refer file11.html)
+
+2.
+Example:
+
+ $("#textbox p:first").empty();
+
+ Explanation:it will remove the first paragraph.
+
+Try and search other functions and...keep learning..
+
+Thank you!!
