@@ -1,0 +1,14 @@
+Welcome back.....
+We will learn about replacing the code.
+Example code:
+            var text=$("<p>");
+            text.append("<i>Replaced<\i>");
+            $("#textbox").html(text);
+
+  EXPLANATION:
+  1)var is used from css. i have declared text as a variable assigned to jquery reference.
+  2)I have appended the var with some data.
+  3)Ihave referenced the <div> tag's id as textbox and appended it with the variable.
+
+  look at file4.html for better understanding.
+  
