@@ -1,0 +1,32 @@
+Welcome back..
+------------------
+ANIMATE:
+ We will do diffrent animations using jquery.(you can try some more.)
+ Example:
+
+                $("#grow").click(function()
+                                {
+                    $("#textbox").animate({width:"400px"},2000);
+                });
+                $("#move").click(function()
+                                {
+                    $("#textbox").animate({marginLeft:"100px"},1000);
+                });
+                 $("#big").click(function()
+                                {
+                    $("#textbox").animate({fontSize:"50px"},1000);
+                });
+             $("#many").click(function()
+                                {
+                    $("#textbox").animate({width:"400px",marginLeft:"300px",fontSize:"40px"},2000);
+                });
+
+
+Explanation:
+1)I have created grow as id and then on click we will animate and increase the size by 400px and in span of 2 sec.
+2)similarly for move it will move to left 100px and in 1sec span.
+3)then for big we use big as id and increase the fontSize in span of 1 sec.
+4)for all the animations at the same time we use all at the same time.
+
+try it(refer file9.html)
+----------------
