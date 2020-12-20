@@ -1,0 +1,34 @@
+Welcome back...
+we will go with some more techniques of jquery.
+----------------------------------
+FADING EFFECT
+
+EXAMPLE:
+    $("document").ready(function(){
+        $("#fadein").on("click",fadein);
+         $("#fadeout").on("click",fadeout);
+         function fadein()
+         {
+             $("#textbox").fadeIn("fast",function()
+             {
+                 alert("I am done fadingfor 3 sec");
+             });
+         }
+        function fadeout()
+         {
+             $("#textbox").fadeOut(3000,function()
+             {
+                 alert("I am faded for 3 sec");
+             });
+         }
+
+Explanation:
+1)created two selector with name fadein and fadeout with respect to diffrent functions.
+2)I started declaring the function defination and declared a nested function to alert when fading is done.
+3)In the 1st function declartion i declared a builin function fast as to fade in instantly.
+4)In the 2nd function declartion I have given as 3000(millisec) that is 3sec and an built-in alert function.
+5)fadeIn and fadeOut are also builtin function.
+
+Try to execute it and understand.
+Refer file8.html
+---------------
