@@ -1,0 +1,21 @@
+Welcome back...
+We will move further with jquery..
+ Example:
+            $("#show").on("click",showfun);
+                $("#hide").on("click",hidefun);
+                function showfun()
+               {
+                   $("#textbox").show();
+               }
+               function hidefun()
+               {
+                   $("#textbox").hide();
+               }
+
+  Explanation:
+  1) we have linked the jquery to the js and declared the function as showfun and hide hidefun.
+  2)I have written the function defination for both the function. (declared in the body of the code.)
+
+  try the code (refer file6.html)
+  -------------------
+  
