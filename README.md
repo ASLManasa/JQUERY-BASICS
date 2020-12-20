@@ -9,4 +9,5 @@ YOU ARE SET TO START.
 INDEX:
 1)Basics_of_Jquery
 2)starting_with_jquery
+3)more_with_jquery
 
